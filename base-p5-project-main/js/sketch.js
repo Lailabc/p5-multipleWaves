@@ -22,7 +22,7 @@ function draw() {
           //sine wave 2
         y = sin(theta - 0.3) * amplitude;
         fill(150,0,150);
-        ellipse(x,y + height/2, 16);
+        ellipse(x,y + height/2, 20);
         //sine wave 1
         y = sin(theta) * amplitude;
         fill(255,0,255);
